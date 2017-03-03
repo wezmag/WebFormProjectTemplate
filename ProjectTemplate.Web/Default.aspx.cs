@@ -16,6 +16,8 @@ namespace ProjectTemplate.Web
         {
             if (!IsPostBack)
             {
+
+
                 gvList.DataSource = _sampleService.GetAll().ToList();
                 gvList.DataBind();
             }
